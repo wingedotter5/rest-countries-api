@@ -6,6 +6,9 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/rest-countries-api',
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
