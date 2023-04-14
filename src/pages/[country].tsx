@@ -123,7 +123,7 @@ const fetcher = async (url: string) => {
 
 const DetailPage = () => {
   const countryName = usePathname()
-  const { data, error, isLoading } = useSWR<Country[] | null>(
+  const { data, error } = useSWR<Country[] | null>(
     `${BASE_URL}/name${countryName}?fullText=true`,
     fetcher
   )
@@ -134,9 +134,9 @@ const DetailPage = () => {
   return (
     <Layout>
       <Head>
-        {/* <title>REST Countries API - {country.name.official}</title> */}
+        <title>REST Countries API - {country?.name?.official}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/rest-countries-api/favicon.ico" />
       </Head>
       <div className="container">
         <BackButton theme={theme} onClick={() => router.back()}>
