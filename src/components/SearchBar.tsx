@@ -10,8 +10,8 @@ interface StyledComponentProps {
 const StyledComponent = styled.input<StyledComponentProps>`
   background-image: ${(props) =>
     props.theme === 'light'
-      ? `url(/images/icon-search-dark.svg)`
-      : `url(/images/icon-search-light.svg)`};
+      ? `url(/rest-countries-api/images/icon-search-dark.svg)`
+      : `url(/rest-countries-api/images/icon-search-light.svg)`};
   background-repeat: no-repeat;
   background-position: 2rem center;
   background-color: ${(props) =>

@@ -140,7 +140,7 @@ const DetailPage = () => {
       </Head>
       <div className="container">
         <BackButton theme={theme} onClick={() => router.back()}>
-          <img src={theme === 'light' ? '/images/icon-arrow-left-dark.svg' : '/images/icon-arrow-left-light.svg'} alt='left arrow' /> Back
+          <img src={theme === 'light' ? '/rest-countries-api/images/icon-arrow-left-dark.svg' : '/rest-countries-api/images/icon-arrow-left-light.svg'} alt='left arrow' /> Back
         </BackButton>
       </div>
       <Container theme={theme} className="container">

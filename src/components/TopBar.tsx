@@ -53,7 +53,7 @@ const TopBar = () => {
           <Title theme={theme}>Where in the world?</Title>
         </Link>
         <Button onClick={toggleTheme} theme={theme}>
-          <img src={theme === 'light' ? '/images/icon-night-moon.svg' : '/images/icon-sun.svg'} alt="" />
+          <img src={theme === 'light' ? '/rest-countries-api/images/icon-night-moon.svg' : '/rest-countries-api/images/icon-sun.svg'} alt="" />
           {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
         </Button>
       </Container>
