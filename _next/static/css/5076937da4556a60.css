@@ -1,0 +1,1 @@
+:root{--max-width:1440px;font-family:Nunito Sans,sans-serif;font-size:.875rem}@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");*{margin:0;padding:0;box-sizing:border-box}.container{max-width:var(--max-width);margin:0 auto;padding:0 2rem}@media screen and (max-width:375px){.container{padding:0 1rem}}
